@@ -8,7 +8,7 @@ WP_URL=https://lgrisel.42.fr
 WP_TITLE=Inception Project lgrisel
 WP_ADMIN=admin
 WP_ADMIN_EMAIL=admin@lgrisel.42.fr
-WP_USER=johndoe
+WP_USER=oui
 WP_USER_EMAIL=user@lgrisel.42.fr
 
 # Nginx Configuration
