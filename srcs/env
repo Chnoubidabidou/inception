@@ -6,10 +6,10 @@ MDB_HOST=mariadb
 # WordPress Configuration
 WP_URL=https://lgrisel.42.fr
 WP_TITLE=Inception Project lgrisel
-WP_ADMIN=admin
-WP_ADMIN_EMAIL=admin@lgrisel.42.fr
-WP_USER=oui
-WP_USER_EMAIL=user@lgrisel.42.fr
+WP_ADMIN=patrick
+WP_ADMIN_EMAIL=patrick@lgrisel.42.fr
+WP_USER=lgrisel
+WP_USER_EMAIL=lgrisel@lgrisel.42.fr
 
 # Nginx Configuration
 DOMAIN_NAME=lgrisel.42.fr
