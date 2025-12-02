@@ -11,7 +11,7 @@ up:
 down:
 	$(COMPOSE) --env-file $(ENV_FILE) down
 
-re: down up
+re: clean up
 
 logs:
 	$(COMPOSE) --env-file $(ENV_FILE) logs -f
