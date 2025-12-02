@@ -38,7 +38,8 @@ until mysqladmin ping --silent 2>/dev/null; do
 done
 
 echo "[INFO] Creating database and users..."
-mysql -u root << EOF
+mysql -u root -p"${MDB_ROOT}" << EOF
+
 -- Création de la base de données
 CREATE DATABASE IF NOT EXISTS \`${MDB_NAME}\`;
 
