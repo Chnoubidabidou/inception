@@ -80,7 +80,6 @@ networks:
   inception:
     driver: bridge
 
-# Définition des secrets
 secrets:
   db_password:
     file: ./secrets/db_password.txt
