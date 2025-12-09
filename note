@@ -1,0 +1,11 @@
+docker volume ls
+docker volume inspect (volume)	ex: wordpress_data
+
+
+docker exec -it mariadb bash
+mysql -u root -p
+SHOW DATABASES;
+USE (database);			ex: wordpress
+SHOW TABLES;
+SELECT * FROM (table);		ex:wp_users
+DESCRIBE (table);		ex:wp_users
